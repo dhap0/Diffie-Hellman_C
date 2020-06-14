@@ -6,4 +6,4 @@ keygen.o: keygen.c keygen.h
 	gcc -c $^
 
 clean:
-	rm test keygen.o
+	rm test *.o *.gch
